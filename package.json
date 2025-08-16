@@ -1,0 +1,17 @@
+{
+  "name": "cors-preflight-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Responds to all CORS preflight (OPTIONS) requests with 204 and appropriate headers.",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
+
